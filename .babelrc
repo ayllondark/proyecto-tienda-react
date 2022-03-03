@@ -1,0 +1,12 @@
+// Configuracion de Babel = Aqui vamos a agregar la configuracion que vamos a utilizar para que babel pueda reconocer a los preset que acabamos de agregar
+{
+    "presets":[
+        "@babel/preset-env", // compila ENMAScript 5,6 y todo javascript mpderno
+        "@babel/preset-react" // Asi va a trabajar con JSX y toda la sintaxis que esta en la libreria
+    ],
+    
+    //Añadimos el recurso para trabajar con los plugin 
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
